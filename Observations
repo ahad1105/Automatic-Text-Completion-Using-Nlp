@@ -1,0 +1,17 @@
+W3-A1 observations
+observations 
+1: the model gives an output along with thier probability score.
+2: it gives the same word suggestions as well with varying probability
+3: there is a suggestion of <e> also which is if you give the last letter of the sentence then it gives a suggestion of <e>
+4: it also gives suggestions based on a particular word like "c/d" with the probability score.If the word is not there then it gives "none" with probability as 0.00
+5: it gives only 1 or 2 words as an output.
+6: this model is based on a language model developed in previous cells.
+
+W3-L1observations
+1: for beginning and end of a sentence we must have a special character such as an <s> and </s> 
+2: steps followed are - importing then loading then removing special chars and then text splitting(\n) and finally tokenising
+3: lenght of each words 
+4: then tokenising i.e converting each tokenised sentences to words (n-gram).
+
+W3-L2
+Building the n-gram language model
