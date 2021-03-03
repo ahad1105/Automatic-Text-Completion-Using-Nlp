@@ -15,3 +15,15 @@ W3-L1observations
 
 W3-L2
 Building the n-gram language model
+
+Steps - 
+Load and preprocess data
+Load and tokenize data.
+Split the sentences into train and test sets.
+Replace words with a low frequency by an unknown marker <unk>.
+Develop N-gram based language models
+Compute the count of n-grams from a given data set.
+Estimate the conditional probability of a next word with k-smoothing.
+Evaluate the N-gram models by computing the perplexity score.
+Use your own model to suggest an upcoming word given your sentence.
+
