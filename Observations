@@ -25,5 +25,6 @@ Develop N-gram based language models
 Compute the count of n-grams from a given data set.
 Estimate the conditional probability of a next word with k-smoothing.
 Evaluate the N-gram models by computing the perplexity score.
+Display n grams using count matrix . 
 Use your own model to suggest an upcoming word given your sentence.
 
